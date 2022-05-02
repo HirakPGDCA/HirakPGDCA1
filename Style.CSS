@@ -1,0 +1,197 @@
+.a{
+	margin-left:60px;
+	
+}
+
+nav ul{
+	list-style:none;
+	
+}
+nav ul li{
+	background:navy;
+	width:170px;
+	float:left;
+	mim-height:55px;
+	line-height:55px;
+	position:relative;
+	left:15px;
+	text-align:center;
+}
+ul li a{
+	color:white;
+	text-decoration:none;
+	font-size:22px;
+	display:block;
+	
+}
+nav ul li:hover{	
+	z-index:1;
+	background:#6945ED;
+	transition:0.2s;
+}
+nav ul ul {
+	display:none;
+	//margin-top:50px;
+	//padding:0;
+	position:absolute;
+	left:-55px;
+	top:0px;
+	
+}
+nav ul li:hover>ul{
+	margin-top:54px;
+	display:block;
+	
+}
+nav ul li ul li a{
+	font-size:19px;
+}
+.b{	
+	//border:3px solid purple;
+	position:absolute;
+	height:300px;
+	width:890px;
+	margin-left:58px;
+	background-size:100% 100%;
+	top:192px;
+	background-image:url("animation photo 1.jpg");
+	animation:hirash 10s linear infinite;
+
+}
+
+@keyframes hirash
+{
+	0%{
+		background-image:url("animation photo 2.png");		
+
+	     }
+	20%{
+		background-image:url("iiit guwahati photo 2.jpg");		
+
+	     }
+	40%{
+		background-image:url("iiit guwahati photo 2.jpg");		
+
+	     }
+	60%{
+		background-image:url("iiit guwahati photo 2.jpg");		
+
+	     }
+	80%{
+		background-image:url("iiit guwahati photo 2.jpg");		
+
+	     }
+}
+
+
+.c{	
+	//border:3px solid orange;
+	background-color:lavender;
+	height:300px;
+	width:280px;
+	margin-left:960px;
+	margin-top:80px;
+	overflow-y:scroll;
+	transition:transform 5s;
+	
+	
+}
+
+.c a{
+	text-decoration:none;
+	//transition:transform 1s;
+}
+.c a:hover{
+	transform:scale (0.5);
+
+
+}	
+
+.d{
+	margin-top:0px;
+	margin-left:40px;
+	height:40px;
+	width:1190px;
+	//background:navy;
+	//border:1px solid green;
+	text-align:center;
+	padding-bottom:5px;
+}
+.e{
+	//border:3px solid orange;
+	position:relative;
+	height:120px;
+	width:900px;
+	top:30px;
+	left:60px;
+}
+.e img {
+	//height:120px;
+	//width:210px;
+	//margin-left:10px;
+	position:relative;
+	left:1px;
+	//background:navy;
+	//position:absolute;
+
+	
+}
+.rightside{
+	//border: 3px solid red;
+	height:170px;
+	width:260px;
+	position:relative;
+	top:-120px;
+	margin-left:975px;
+	overflow:auto;
+}
+
+.rightside .f{	
+	background-color:#A9A9A9;
+	height:40px;
+	width:170px;
+	border-radius:4px;
+	//margin-left:1050px;
+	position:relative;
+	top:-20px;
+	//overflow:scroll;
+	left:15%;
+	text-align:center;
+	margin:5px;
+}
+.rightside .f:hover{
+	background-color:#696969;
+	display:block;
+	font-color:#D3D3D3;
+	
+}
+.rightside a{
+	text-decoration:none;
+}
+
+.g{	
+	//border:1px solid black;
+	//background-color:red;
+	margin-left:60px;
+	position:absolute;
+	top:730px;
+	
+}
+.g a{
+	text-decoration:none;
+}
+.h{	
+	
+	background-color:#D3D3D3;
+	margin-left:60px;
+	height:40px;
+	position:absolute;
+	top:780px;
+	width:1200px;
+	//border-radius:4px solid red;
+}
+.h .fa{
+	font-size:17px;
+	margin-top:10px;
+}
+
